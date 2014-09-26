@@ -25,38 +25,37 @@ p,
 blockquote,
 th,
 td {
-  margin: 0;
-  padding: 0;
+  margin:0;
+  padding:0;
 }
 
 html {
-  font: 400 100.01%/105% Arial, Helvetica, sans-serif
+  font:400 100.01%/105% Arial, Verdana, Helvetica, sans-serif
 }
 
 body {
-  font-size: .875em; /* You may change for default font size for site*/
-  color: #000;
-  background: #FFF;
-  -webkit-font-smoothing: antialiased;
-  -webkit-text-size-adjust: 100%;
-  text-rendering: auto
+  font-size:.875em; /* You may change for default font size for site*/
+  color:#000;
+  background:#FFF;
+  -webkit-font-smoothing:antialiased;
+  -webkit-text-size-adjust:100%;
+  text-rendering:auto
 }
 
 td {
-  vertical-align: top
+  vertical-align:top
 }
 
 h1 {
-  color: #131313;
+  color:#131313;
   font-size:2.571428571428571em;
-  margin: 0 0 .3333333333333333em;
+  margin:0 0 .3333333333333333em;
   line-height:1.15em;
 }
 
 h2 {
-  color: #070707
-  font-size:1.714285714285714em;
-  margin: 0 0 .5em;
+  color:#070707 font-size : 1.714285714285714 em;
+  margin:0 0 .5em;
   line-height:1.15em;
 }
 
@@ -67,99 +66,100 @@ h3 {
 }
 
 a, .link {
-  color: rgb(32,107,138);
-  text-decoration: none;
-  outline: none;
-  cursor: pointer;
-  border-bottom: 1px solid rgba(32,107,138,.3)
+  color:rgb(32, 107, 138);
+  text-decoration:none;
+  outline:none;
+  cursor:pointer;
+  border-bottom:1px solid rgba(32, 107, 138, .3)
 }
 
 a:hover, a:focus,
 .link:hover, .link:focus {
-  text-decoration: none;
-  border-bottom-color: rgb(32,107,138)
+  text-decoration:none;
+  border-bottom-color:rgb(32, 107, 138)
 }
 
 a * {
-  cursor: pointer
+  cursor:pointer
 }
 
 a.nob {
-  border: 0
+  border:0
 }
 
 sup {
-  vertical-align: middle;
-  position: relative;
-  top: -7px;
-  font-size: .75em
+  vertical-align:middle;
+  position:relative;
+  top:-7px;
+  font-size:.75em
 }
 
 p {
-  margin: 0 0 1.5em;
-  padding: 0
+  margin:0 0 1.5em;
+  padding:0
 }
 
 p, td, div {
-  text-align: left
+  text-align:left
 }
 
 ul, ol {
-  margin: 0 0 1.5em
+  margin:0 0 1.5em
 }
 
 img {
-  border: none
+  border:none
 }
 
 b, strong {
-  font-weight: 700
+  font-weight:700
 }
 
 pre {
-  background-color: #F6F6F6;
+  background-color:#F6F6F6;
   font-size:12px;
   line-height:18px;
-  width: 550px;
-  overflow: auto;
+  width:550px;
+  overflow:auto;
   padding:1em;
-  white-space: pre-wrap;
-  word-break: break-all;
-  word-wrap: break-word;
+  white-space:pre-wrap;
+  word-break:break-all;
+  word-wrap:break-word;
   margin-bottom:1.5em;
 }
+
 hr {
-  color: #E9E9E9;
-  background: #E9E9E9;
-  height: 1px;
-  margin: 9px 0;
-  border: 0
+  color:#E9E9E9;
+  background:#E9E9E9;
+  height:1px;
+  margin:9px 0;
+  border:0
 }
 
 u {
-  text-decoration: none
+  text-decoration:none
 }
 
 blockquote {
-  padding: .375em .625em;
-  font-style: italic;
-  border-left: 4px solid #cd1f21;
-  margin: 0 0 1.5em;
+  padding:.375em .625em;
+  font-style:italic;
+  border-left:4px solid #CD1F21;
+  margin:0 0 1.5em;
   font-size:1.142857142857143em;
 }
 
 blockquote > *:last-child {
-  margin-bottom: 0;
+  margin-bottom:0;
 }
 
 /* FoRM eLeMeNTS */
 fieldset {
-  border: 0
+  border:0
 }
 
 input, select, textarea {
-  font: 400 1em Arial, Helvetica, sans-serif;
-  padding: .25em
+  font:400 1em Arial, Helvetica, sans-serif;
+  padding:.25em
 }
 
 textarea,
@@ -167,15 +167,16 @@ input[type=text],
 input[type=tel],
 input[type=email],
 input[type=password] {
-  background: #FFF;
-  border: 1px solid #e0e0e0;
-  padding: 0 6px;
-  -webkit-transition: all 0.4s ease;
-     -moz-transition: all 0.4s ease;
-      -ms-transition: all 0.4s ease;
-       -o-transition: all 0.4s ease;
-          transition: all 0.4s ease
+  background:#FFF;
+  border:1px solid #E0E0E0;
+  padding:0 6px;
+  -webkit-transition:all 0.4s ease;
+  -moz-transition:all 0.4s ease;
+  -ms-transition:all 0.4s ease;
+  -o-transition:all 0.4s ease;
+  transition:all 0.4s ease
 }
+
 input[type=text],
 input[type=tel],
 input[type=email],
@@ -189,40 +190,40 @@ input[type="text"]:focus,
 input[type="email"]:focus,
 input[type="tel"]:focus,
 input[type="password"]:focus {
-  border-color: #ABABAB;
-  outline: none;
-  box-shadow: 0 0 3px #0078ff;
+  border-color:#ABABAB;
+  outline:none;
+  box-shadow:0 0 3px #0078FF;
 
 }
 
 select {
-  padding: 0 0 0 12px;
-  border: 1px solid #ABABAB;
-  height: 2.071428571428571em
+  padding:0 0 0 12px;
+  border:1px solid #ABABAB;
+  height:2.071428571428571em
 }
 
 option {
-  padding: 0 .25em
+  padding:0 .25em
 }
 
 option:hover {
-  background: rgb(32,107,138);
-  color: #FFF
+  background:rgb(32, 107, 138);
+  color:#FFF
 }
 
 option:first-child {
-  margin: 0
+  margin:0
 }
 
 input {
-  vertical-align: middle
+  vertical-align:middle
 }
 
 textarea {
-  overflow: auto;
-  height: auto;
-  resize: vertical;
-  line-height: normal
+  overflow:auto;
+  height:auto;
+  resize:vertical;
+  line-height:normal
 }
 
 .button,
@@ -230,18 +231,18 @@ textarea {
 input[type="submit"],
 input[type="button"],
 button {
-  padding: 0 1em;
-  height: 2.071428571428571em;
-  border: 0;
-  background: rgb(32,107,138);
-  border-radius: 2px;
-  color: #FFF;
-  text-decoration: none;
-  cursor: pointer;
-  display: inline-block;
-  text-align: center;
-  font: 700 1em/2.071428571428571em Arial, Helvetica, sans-serif;
-  text-transform: uppercase
+  padding:0 1em;
+  height:2.071428571428571em;
+  border:0;
+  background:rgb(32, 107, 138);
+  border-radius:2px;
+  color:#FFF;
+  text-decoration:none;
+  cursor:pointer;
+  display:inline-block;
+  text-align:center;
+  font:700 1em/2.071428571428571em Arial, Helvetica, sans-serif;
+  text-transform:uppercase
 }
 
 .button:hover,
@@ -249,7 +250,7 @@ button {
 input[type="submit"]:hover,
 input[type="button"]:hover,
 button:hover {
-  opacity: .75
+  opacity:.75
 }
 
 .button:focus,
@@ -257,120 +258,125 @@ button:hover {
 input[type="submit"]:focus,
 input[type="button"]:focus,
 button[type="submit"]:focus {
-  box-shadow: inset 0 1px 3px rgba(0, 0, 0, .17)
+  box-shadow:inset 0 1px 3px rgba(0, 0, 0, .17)
 }
 
 input[type=radio],
 input[type=checkbox] {
-  width: auto;
-  border: 0
+  width:auto;
+  border:0
 }
+
 /** Very Need Style  **/
 .clearfix, .c_form-row {
-  zoom: 1
+  zoom:1
 }
 
 .clearfix:after, .c_form-row:after {
-  content: ' ';
-  clear: both;
-  display: block;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-  font-size: 0
+  content:' ';
+  clear:both;
+  display:block;
+  width:0;
+  height:0;
+  overflow:hidden;
+  font-size:0
 }
 
 .invalid {
-  border: 1px solid red
+  border:1px solid red
 }
 
 .hyp, .hyp * {
-  -webkit-hyphens: auto;
-     -moz-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto
+  -webkit-hyphens:auto;
+  -moz-hyphens:auto;
+  -ms-hyphens:auto;
+  hyphens:auto
 }
+
 .nohyp, .nohyp * {
-  -webkit-hyphens: none !important;
-     -moz-hyphens: none !important;
-      -ms-hyphens: none !important;
-          hyphens: none !important
+  -webkit-hyphens:none !important;
+  -moz-hyphens:none !important;
+  -ms-hyphens:none !important;
+  hyphens:none !important
 }
 
 .bb {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
 }
 
 .rel {
-  position: relative
+  position:relative
 }
+
 .abs {
-  position: absolute
+  position:absolute
 }
 
 .oh {
-  overflow: hidden
+  overflow:hidden
 }
 
 .fl {
-  float: left
+  float:left
 }
 
 .fr {
-  float: right
+  float:right
 }
 
 .none {
-  display: none
+  display:none
 }
 
 .animate, .animate * {
-  -webkit-transition: all 0.4s ease;
-     -moz-transition: all 0.4s ease;
-      -ms-transition: all 0.4s ease;
-       -o-transition: all 0.4s ease;
-          transition: all 0.4s ease
+  -webkit-transition:all 0.4s ease;
+  -moz-transition:all 0.4s ease;
+  -ms-transition:all 0.4s ease;
+  -o-transition:all 0.4s ease;
+  transition:all 0.4s ease
 }
 
 img[align="left"], .i__left {
-  margin: .25em .75em .75em 0;
+  margin:.25em .75em .75em 0;
   float:left;
 }
 
 img[align="right"], .i__right {
-  margin: .25em 0 .75em .75em;
+  margin:.25em 0 .75em .75em;
   float:right;
 }
 
 .nob {
-  border: 0
+  border:0
 }
 
 .v-helper {
-  display: inline-block;
-  height: 100%;
-  vertical-align: middle;
-  *display: inline
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+  *display:inline
 }
 
 .v-image {
-  vertical-align: middle;
-  display: inline-block;
-  *display: inline
+  vertical-align:middle;
+  display:inline-block;
+  *display:inline
 }
 
 .fi {
-  display: block;;
-  max-width: 100%;
-  height: auto;
+  display:block;;
+  max-width:100%;
+  height:auto;
 }
+
 .ma {
   margin-right:auto;
-   margin-left:auto;
+  margin-left:auto;
 }
-.htext{
+
+.htext {
   overflow:hidden;
   text-indent:-999em;
   text-align:left
